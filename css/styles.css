@@ -1,1 +1,26 @@
 /* Stylesheet */
+
+
+body {
+	background: coral;
+}
+
+nav {
+	border: #F3C;
+}
+
+blockquote {
+	background: lightblue;
+}
+
+.container_12 {
+	background: #FFF;
+}
+
+footer {
+	background: #0FC;
+}
+
+header {
+	background: #936;
+}
