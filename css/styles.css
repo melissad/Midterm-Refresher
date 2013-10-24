@@ -2,7 +2,7 @@
 
 
 body {
-	background: coral;
+	background: url("../img/bg.png");
 }
 
 nav {
@@ -23,4 +23,51 @@ footer {
 
 header {
 	background: #936;
+}
+
+/* 
+ A. Make horizontal navigaton
+ B. Improve accessiblity of links
+*/
+
+li {
+  float: left;
+  
+  
+ 
+  line-height: 50px;
+  list-style: none;
+	margin: 0 5px;
+  text-align: right;
+  
+}
+
+
+a {
+  color: #fff;
+  display: block;
+  height: 50px;
+  padding: 0 10px 0 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 150px;
+}
+
+#google a:hover {
+  background: url("../img/chrome.png") no-repeat 30px center;
+}
+  
+#mozilla a:hover {
+  background: url("../img/firefox.png") no-repeat 30px center;
+}
+  
+#apple a:hover {
+  background: url("../img/ie.png") no-repeat 30px center;
+  
+}
+
+
+/* Helper Class to Show Grid */
+.showgrid {
+        background: url("../img/12-col-grid.gif") !important;
 }
